@@ -1,0 +1,85 @@
+body {
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(cloud.webp);
+    justify-content: center;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+}
+
+.navbar {
+    margin: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    letter-spacing: 1.2rem;
+}
+
+.mp {
+    height: auto;
+    background-image: url(background.jpg);
+    display: flex;
+    justify-content: center;
+
+}
+
+.mp img {
+    align-items: center;
+    height: 67rem;
+    border: 3px solid #a8a9a9;
+    border-radius: 50%;
+
+}
+
+.navbar input {
+    background-color: #c6e4f0;
+    height: 60%;
+    font-size: 2rem;
+    border: 3px solid black;
+    border-radius: 17px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    letter-spacing: 1px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.navbar input:hover {
+    border-color: white;
+    border-radius: 50%;
+    background: none;
+    border: none;
+    transform: rotateY(180deg);
+}
+
+.footer {
+
+    justify-content: space-around;
+    align-items: center;
+    background-color: bisque;
+}
+
+.footer img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+h4 {
+    font-size: 3rem;
+    margin: auto;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-around;
+}

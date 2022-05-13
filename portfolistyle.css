@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+}
+
+#return {
+    border-radius: 20px;
+    background-color: #e7cdcd;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+h1 {
+    border-bottom: 2px solid black;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+
+.container img {
+    height: 500px;
+    width: auto;
+    border: 1px solid salmon;
+}
+
+.row1 {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+header input {
+    background-color: #c6e4f0;
+    height: 60%;
+    font-size: 2rem;
+    border: 3px solid black;
+    border-radius: 17px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    letter-spacing: 1px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.container1 img {
+    width: 335.36px;
+    height: 502px;
+}
